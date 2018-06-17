@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304a94fa-212f-4149-829c-d36888d0534e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/floats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/integers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assoc_arrays.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/booleans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/null.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/type_casting.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phpinfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/phpinfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +34,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="floats.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/floats.php">
+      <file leaf-file-name="booleans.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/booleans.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="null.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/null.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="type_casting.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/type_casting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/constants.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -79,6 +106,13 @@
         <option value="$PROJECT_DIR$/src/integers.php" />
         <option value="$PROJECT_DIR$/src/variables.php" />
         <option value="$PROJECT_DIR$/src/floats.php" />
+        <option value="$PROJECT_DIR$/src/arrays.php" />
+        <option value="$PROJECT_DIR$/src/assoc_arrays.php" />
+        <option value="$PROJECT_DIR$/src/array_functions.php" />
+        <option value="$PROJECT_DIR$/src/booleans.php" />
+        <option value="$PROJECT_DIR$/src/null.php" />
+        <option value="$PROJECT_DIR$/src/type_casting.php" />
+        <option value="$PROJECT_DIR$/src/constants.php" />
       </list>
     </option>
   </component>
@@ -94,11 +128,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.2.6-Win32-VC15-x64" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -167,12 +206,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.floats.php">
-    <configuration name="strings_functions.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/firstproject/src/strings_functions.php" />
-    <configuration name="floats.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/floats.php" />
-    <configuration name="integers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/integers.php" />
-    <configuration name="phpinfo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/phpinfo.php" />
-    <configuration name="strings_functions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/strings_functions.php" />
+  <component name="RunManager" selected="PHP Script.constants.php">
+    <configuration name="array_functions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/array_functions.php" />
+    <configuration name="booleans.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/booleans.php" />
+    <configuration name="constants.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/constants.php" />
+    <configuration name="null.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/null.php" />
+    <configuration name="type_casting.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/type_casting.php" />
     <configuration name="FirstPhp" type="docker-deploy" factoryName="dockerfile" server-name="Local Docker">
       <deployment type="dockerfile">
         <settings>
@@ -199,19 +238,19 @@
     </configuration>
     <list>
       <item itemvalue="Docker.FirstPhp" />
-      <item itemvalue="PHP Script.strings_functions.php" />
-      <item itemvalue="JavaScript Debug.strings_functions.php" />
-      <item itemvalue="PHP Script.phpinfo.php" />
-      <item itemvalue="PHP Script.integers.php" />
-      <item itemvalue="PHP Script.floats.php" />
+      <item itemvalue="PHP Script.array_functions.php" />
+      <item itemvalue="PHP Script.booleans.php" />
+      <item itemvalue="PHP Script.null.php" />
+      <item itemvalue="PHP Script.type_casting.php" />
+      <item itemvalue="PHP Script.constants.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.floats.php" />
-        <item itemvalue="PHP Script.integers.php" />
-        <item itemvalue="PHP Script.strings_functions.php" />
-        <item itemvalue="PHP Script.phpinfo.php" />
-        <item itemvalue="JavaScript Debug.strings_functions.php" />
+        <item itemvalue="PHP Script.constants.php" />
+        <item itemvalue="PHP Script.type_casting.php" />
+        <item itemvalue="PHP Script.null.php" />
+        <item itemvalue="PHP Script.booleans.php" />
+        <item itemvalue="PHP Script.array_functions.php" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +269,7 @@
       <workItem from="1528940990690" duration="385000" />
       <workItem from="1528941411845" duration="2043000" />
       <workItem from="1528997931749" duration="5035000" />
-      <workItem from="1529009701867" duration="13007000" />
+      <workItem from="1529009701867" duration="24208000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1529026547854</created>
@@ -243,7 +282,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20523000" />
+    <option name="totallyTimeSpent" value="31724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,14 +295,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32897604" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" show_stripe_button="false" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.32837406" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.4433551" />
       <window_info anchor="bottom" id="Command Line Tools Console" show_stripe_button="false" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4433551" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.4433551" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
@@ -435,10 +473,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assoc_arrays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/floats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/booleans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/null.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/type_casting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
