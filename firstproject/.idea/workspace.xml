@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304a94fa-212f-4149-829c-d36888d0534e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assoc_arrays.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/booleans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/null.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/type_casting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/foreachloops.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forloops.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions_defaults.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions_defining.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions_returnvalues.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions_scope.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logical.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pointers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/switch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/whileloops.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +22,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -33,39 +38,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="booleans.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/booleans.php">
+    <leaf>
+      <file leaf-file-name="functions_scope.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/functions_scope.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="null.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/null.php">
+      <file leaf-file-name="functions_defaults.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="type_casting.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/type_casting.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constants.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/constants.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -91,9 +78,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -113,6 +97,16 @@
         <option value="$PROJECT_DIR$/src/null.php" />
         <option value="$PROJECT_DIR$/src/type_casting.php" />
         <option value="$PROJECT_DIR$/src/constants.php" />
+        <option value="$PROJECT_DIR$/src/logical.php" />
+        <option value="$PROJECT_DIR$/src/switch.php" />
+        <option value="$PROJECT_DIR$/src/whileloops.php" />
+        <option value="$PROJECT_DIR$/src/forloops.php" />
+        <option value="$PROJECT_DIR$/src/foreachloops.php" />
+        <option value="$PROJECT_DIR$/src/pointers.php" />
+        <option value="$PROJECT_DIR$/src/functions_defining.php" />
+        <option value="$PROJECT_DIR$/src/functions_returnvalues.php" />
+        <option value="$PROJECT_DIR$/src/functions_scope.php" />
+        <option value="$PROJECT_DIR$/src/functions_defaults.php" />
       </list>
     </option>
   </component>
@@ -136,8 +130,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.2.6-Win32-VC15-x64" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -151,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,23 +156,17 @@
               <item name="firstproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="firstproject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="firstproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;MariaDB" />
-    <property name="last_opened_file_path" value="C:/php/php-7.2.6-Win32-VC15-x64/phpdbg.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -187,7 +179,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.smarty" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -206,12 +198,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.constants.php">
-    <configuration name="array_functions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/array_functions.php" />
-    <configuration name="booleans.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/booleans.php" />
-    <configuration name="constants.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/constants.php" />
-    <configuration name="null.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/null.php" />
-    <configuration name="type_casting.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/type_casting.php" />
+  <component name="RunManager" selected="PHP Script.functions_defaults.php">
+    <configuration name="functions_defaults.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/functions_defaults.php" />
+    <configuration name="functions_defining.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/functions_defining.php" />
+    <configuration name="functions_returnvalues.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/functions_returnvalues.php" />
+    <configuration name="functions_scope.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/functions_scope.php" />
+    <configuration name="pointers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/pointers.php" />
     <configuration name="FirstPhp" type="docker-deploy" factoryName="dockerfile" server-name="Local Docker">
       <deployment type="dockerfile">
         <settings>
@@ -238,19 +230,19 @@
     </configuration>
     <list>
       <item itemvalue="Docker.FirstPhp" />
-      <item itemvalue="PHP Script.array_functions.php" />
-      <item itemvalue="PHP Script.booleans.php" />
-      <item itemvalue="PHP Script.null.php" />
-      <item itemvalue="PHP Script.type_casting.php" />
-      <item itemvalue="PHP Script.constants.php" />
+      <item itemvalue="PHP Script.pointers.php" />
+      <item itemvalue="PHP Script.functions_defining.php" />
+      <item itemvalue="PHP Script.functions_returnvalues.php" />
+      <item itemvalue="PHP Script.functions_scope.php" />
+      <item itemvalue="PHP Script.functions_defaults.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.constants.php" />
-        <item itemvalue="PHP Script.type_casting.php" />
-        <item itemvalue="PHP Script.null.php" />
-        <item itemvalue="PHP Script.booleans.php" />
-        <item itemvalue="PHP Script.array_functions.php" />
+        <item itemvalue="PHP Script.functions_defaults.php" />
+        <item itemvalue="PHP Script.functions_scope.php" />
+        <item itemvalue="PHP Script.functions_returnvalues.php" />
+        <item itemvalue="PHP Script.functions_defining.php" />
+        <item itemvalue="PHP Script.pointers.php" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +261,8 @@
       <workItem from="1528940990690" duration="385000" />
       <workItem from="1528941411845" duration="2043000" />
       <workItem from="1528997931749" duration="5035000" />
-      <workItem from="1529009701867" duration="24208000" />
+      <workItem from="1529009701867" duration="29144000" />
+      <workItem from="1529270720356" duration="7131000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1529026547854</created>
@@ -282,7 +275,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31724000" />
+    <option name="totallyTimeSpent" value="43791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,28 +288,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32897604" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" show_stripe_button="false" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.4433551" />
-      <window_info anchor="bottom" id="Command Line Tools Console" show_stripe_button="false" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.4433551" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.4433551" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.4433551" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49932885" weight="0.66557735" />
       <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="8" show_stripe_button="false" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,6 +520,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logical.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/switch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/whileloops.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forloops.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/foreachloops.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pointers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_defining.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_returnvalues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_scope.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
