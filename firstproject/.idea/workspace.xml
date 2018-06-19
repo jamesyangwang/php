@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304a94fa-212f-4149-829c-d36888d0534e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/phing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/foreachloops.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forloops.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions_defaults.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions_defining.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions_returnvalues.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions_scope.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logical.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pointers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/switch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/whileloops.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions_defaults.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions_defaults.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phpinfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/phpinfo.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,21 +29,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="functions_scope.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/functions_scope.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="phpinfo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/phpinfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions_defaults.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
+      <file leaf-file-name="hello.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hello.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -86,7 +77,6 @@
         <option value="$PROJECT_DIR$/src/readme.txt" />
         <option value="$PROJECT_DIR$/src/strings.php" />
         <option value="$PROJECT_DIR$/src/strings_functions.php" />
-        <option value="$PROJECT_DIR$/src/phpinfo.php" />
         <option value="$PROJECT_DIR$/src/integers.php" />
         <option value="$PROJECT_DIR$/src/variables.php" />
         <option value="$PROJECT_DIR$/src/floats.php" />
@@ -106,7 +96,9 @@
         <option value="$PROJECT_DIR$/src/functions_defining.php" />
         <option value="$PROJECT_DIR$/src/functions_returnvalues.php" />
         <option value="$PROJECT_DIR$/src/functions_scope.php" />
+        <option value="C:/php/php-7.2.6-Win32-VC15-x64/php.ini" />
         <option value="$PROJECT_DIR$/src/functions_defaults.php" />
+        <option value="$PROJECT_DIR$/src/phpinfo.php" />
       </list>
     </option>
   </component>
@@ -131,8 +123,11 @@
     <packageJsonPaths />
   </component>
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="localhost" id="02df09dc-43e8-4d06-8dee-35b2ebea6f94" name="Apache" />
+    </servers>
   </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\xampp\htdocs" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:80" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.2.6-Win32-VC15-x64" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
@@ -156,6 +151,11 @@
               <item name="firstproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="firstproject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="firstproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +166,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;MariaDB" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -179,7 +179,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.smarty" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -198,12 +198,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.functions_defaults.php">
-    <configuration name="functions_defaults.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/functions_defaults.php" />
-    <configuration name="functions_defining.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/functions_defining.php" />
-    <configuration name="functions_returnvalues.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/functions_returnvalues.php" />
-    <configuration name="functions_scope.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/functions_scope.php" />
-    <configuration name="pointers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/pointers.php" />
+  <component name="RunManager" selected="PHP Web Page.First Project - Web Server">
+    <configuration name="hello.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/firstproject/src/hello.php" useFirstLineBreakpoints="true" />
+    <configuration name="First Project - Built-in Web Server" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/src" />
+    <configuration name="functions_defaults.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/functions_defaults.php" />
+    <configuration name="functions_defining.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/functions_defining.php" />
+    <configuration name="functions_returnvalues.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/functions_returnvalues.php" />
+    <configuration name="functions_scope.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/functions_scope.php" />
+    <configuration name="hello.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/hello.php" />
+    <configuration name="First Project - Web Server" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Apache" />
     <configuration name="FirstPhp" type="docker-deploy" factoryName="dockerfile" server-name="Local Docker">
       <deployment type="dockerfile">
         <settings>
@@ -230,19 +233,18 @@
     </configuration>
     <list>
       <item itemvalue="Docker.FirstPhp" />
-      <item itemvalue="PHP Script.pointers.php" />
+      <item itemvalue="PHP Built-in Web Server.First Project - Built-in Web Server" />
       <item itemvalue="PHP Script.functions_defining.php" />
       <item itemvalue="PHP Script.functions_returnvalues.php" />
       <item itemvalue="PHP Script.functions_scope.php" />
       <item itemvalue="PHP Script.functions_defaults.php" />
+      <item itemvalue="PHP Script.hello.php" />
+      <item itemvalue="PHP Web Page.First Project - Web Server" />
+      <item itemvalue="JavaScript Debug.hello.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.functions_defaults.php" />
-        <item itemvalue="PHP Script.functions_scope.php" />
-        <item itemvalue="PHP Script.functions_returnvalues.php" />
-        <item itemvalue="PHP Script.functions_defining.php" />
-        <item itemvalue="PHP Script.pointers.php" />
+        <item itemvalue="JavaScript Debug.hello.php" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +265,11 @@
       <workItem from="1528997931749" duration="5035000" />
       <workItem from="1529009701867" duration="29144000" />
       <workItem from="1529270720356" duration="7131000" />
+      <workItem from="1529372853138" duration="129000" />
+      <workItem from="1529373041920" duration="626000" />
+      <workItem from="1529373686323" duration="285000" />
+      <workItem from="1529373989724" duration="179000" />
+      <workItem from="1529374184431" duration="5250000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1529026547854</created>
@@ -275,7 +282,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43791000" />
+    <option name="totallyTimeSpent" value="50260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,12 +304,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.4433551" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49932885" weight="0.66557735" />
       <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -351,10 +358,96 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/functions_defaults.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/functions_defaults.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/functions_defaults.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/functions_defaults.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/hello.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/hello.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/hello.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_scope.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_scope.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hello.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -374,9 +467,6 @@
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://C:/php/php-7.2.6-Win32-VC15-x64/php.ini">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/68278d74-875f-4fad-9cbd-f837e487f7d1/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -411,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -429,20 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -586,7 +655,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/php/php-7.2.6-Win32-VC15-x64/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/functions_defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
