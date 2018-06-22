@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304a94fa-212f-4149-829c-d36888d0534e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +30,17 @@
     <favorites_list name="firstproject" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,10 +117,14 @@
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
-      <server host="localhost" id="02df09dc-43e8-4d06-8dee-35b2ebea6f94" name="Apache" />
+      <server host="localhost" id="02df09dc-43e8-4d06-8dee-35b2ebea6f94" name="Apache" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/src" remote-root="C:/Users/James/git/php/firstproject/src" />
+        </path_mappings>
+      </server>
     </servers>
   </component>
-  <component name="PhpWebServerValidation" path_to_validation_script="C:\xampp\htdocs" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:80" />
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\Users\James\git\php\firstproject\src\basic" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:80/basic" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.2.6-Win32-VC15-x64" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
@@ -138,12 +152,6 @@
               <item name="firstproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="firstproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -155,7 +163,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;MariaDB" />
-    <property name="last_opened_file_path" value="C:/php/php-7.2.6-Win32-VC15-x64/ext/php_xdebug-2.6.0-7.2-vc15-x86_64.dll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/basic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -190,60 +198,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.logical.php">
-    <configuration name="hello.php" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/firstproject/src/basic/hello.php" useFirstLineBreakpoints="true" />
-    <configuration name="First Project - Built-in Web Server" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/src" />
-    <configuration name="booleans.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/basic/booleans.php" />
-    <configuration name="functions_defaults.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/basic/functions_defaults.php" />
-    <configuration name="functions_defining.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/basic/functions_defining.php" />
-    <configuration name="functions_returnvalues.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/basic/functions_returnvalues.php" />
-    <configuration name="functions_scope.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/basic/functions_scope.php" />
-    <configuration name="hello.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/basic/hello.php" />
-    <configuration name="logical.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/basic/logical.php" />
-    <configuration name="First Project - Web Server" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Apache" />
-    <configuration name="FirstPhp" type="docker-deploy" factoryName="dockerfile" server-name="Local Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="JSONFilePath" value="" />
-          <option name="command" value="" />
-          <option name="commandLineOptions" value="-d" />
-          <option name="containerName" value="firstphp" />
-          <option name="entrypoint" value="" />
-          <option name="imageTag" value="firstphp" />
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="80" />
-                <option name="hostPort" value="80" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
-          <option name="sourceFilePath" value="Dockerfile" />
-          <option name="startBrowserSettings">
-            <browser url="http://127.0.0.1" />
-          </option>
-        </settings>
-      </deployment>
-    </configuration>
-    <list>
-      <item itemvalue="PHP Script.booleans.php" />
-      <item itemvalue="Docker.FirstPhp" />
-      <item itemvalue="PHP Built-in Web Server.First Project - Built-in Web Server" />
-      <item itemvalue="PHP Script.functions_defining.php" />
-      <item itemvalue="PHP Script.functions_returnvalues.php" />
-      <item itemvalue="PHP Script.functions_scope.php" />
-      <item itemvalue="PHP Script.functions_defaults.php" />
-      <item itemvalue="PHP Script.hello.php" />
-      <item itemvalue="PHP Web Page.First Project - Web Server" />
-      <item itemvalue="JavaScript Debug.hello.php" />
-      <item itemvalue="PHP Script.logical.php" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.logical.php" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -271,6 +225,7 @@
       <workItem from="1529591369971" duration="1446000" />
       <workItem from="1529642601402" duration="1965000" />
       <workItem from="1529646315535" duration="14000" />
+      <workItem from="1529646415173" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1529026547854</created>
@@ -283,7 +238,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55130000" />
+    <option name="totallyTimeSpent" value="56407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,8 +251,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49727768" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49727768" visible="true" weight="0.20842217" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49932885" weight="0.66557735" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.4433551" />
@@ -308,7 +264,7 @@
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.1977612" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Favorites" order="2" sideWeight="0.5027223" side_tool="true" weight="0.19989339" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" show_stripe_button="false" weight="0.32897604" />
@@ -369,7 +325,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/index.php">
+    <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
@@ -598,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/logical.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -682,7 +631,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/index.php">
+    <entry file="file://$PROJECT_DIR$/src/cms/_new_database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
