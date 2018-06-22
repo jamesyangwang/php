@@ -16,19 +16,16 @@
 
 <?php
 
+$number1 = 10;
+$number2 = 20;
 
+echo $number1 + $number2;
 
-		/* Step 1: Make 2 variables called number1 and number2 and set 1 to value 10 and the other 20:
+$array1 = ["James", "Wang"];
+$array2 = [ 0 => "James", 1 => "Wang"];
 
-		  Step 2: Add the two variables and display the sum with echo:
-
-
-		  Step3: Make 2 Arrays with the same values, one regular and the other associative
-
-		 
-			 */
-
-		
+echo print_r($array1);
+echo print_r($array2);
 
 
 		?>
