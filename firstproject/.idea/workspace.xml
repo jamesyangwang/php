@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304a94fa-212f-4149-829c-d36888d0534e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/demo/_practical-app/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/_practical-app/1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/_practical-app/2.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/_practical-app/2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/11_arrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/11_arrays.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +30,7 @@
     <favorites_list name="firstproject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="31_32_33_form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/31_32_33_form.php">
           <provider selected="true" editor-type-id="text-editor" />
@@ -126,7 +124,7 @@
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="C:\Users\James\git\php\firstproject\src\basic" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:80/basic" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.2.6-Win32-VC15-x64" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -256,7 +254,8 @@
       <workItem from="1529591369971" duration="1446000" />
       <workItem from="1529642601402" duration="1965000" />
       <workItem from="1529646315535" duration="14000" />
-      <workItem from="1529646415173" duration="4486000" />
+      <workItem from="1529646415173" duration="5064000" />
+      <workItem from="1529825032406" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1529026547854</created>
@@ -269,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59616000" />
+    <option name="totallyTimeSpent" value="60792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,25 +281,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49727768" visible="true" weight="0.21055438" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32897604" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" show_stripe_button="false" weight="0.32897604" />
+      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49932885" weight="0.67864925" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.4433551" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.4433551" />
-      <window_info anchor="bottom" x="22" y="164" width="1876" height="712" id="Terminal" order="7" weight="0.7755991" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49727768" visible="true" weight="0.20842217" />
-      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49932885" weight="0.67864925" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.1977612" />
+      <window_info anchor="bottom" x="22" y="164" width="1876" height="712" id="Terminal" order="7" weight="0.7755991" />
       <window_info id="Favorites" order="2" sideWeight="0.5027223" side_tool="true" weight="0.19989339" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" show_stripe_button="false" weight="0.32897604" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="8" show_stripe_button="false" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
