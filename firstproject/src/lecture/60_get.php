@@ -24,7 +24,7 @@ $button = "CLICK HERE NOW";
 ?>
 
 
-<a href="57_get.php?id=<?php echo $id;?>"><?php echo $button;?></a>
+<a href="60_get.php?id=<?php echo $id;?>"><?php echo $button;?></a>
 
 
 

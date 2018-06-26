@@ -1,6 +1,6 @@
 <?php 
 
-class Car {
+class Car2 {
     
   
     function MoveWheels(){
@@ -14,7 +14,7 @@ class Car {
 
 }
 
-if(method_exists("Car", "MoveWheels")) {
+if(method_exists("Car2", "MoveWheels")) {
 
 echo "The Method Exist";
 

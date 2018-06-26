@@ -1,6 +1,6 @@
 <?php 
 
-class Car {
+class Car3 {
     
     var $wheels = 4;
     var $hood = 1;
@@ -25,26 +25,11 @@ class Car {
 
 }
 
-$bmw = new Car();
+$bmw = new Car3();
+$truck = new Car3();
+echo $bmw->wheels . "<br>";
 
-class Plane extends Car {
+echo $truck->wheels = 10 . "<br>";
+$truck->CreateDoors();
+echo $truck->doors;
 
-    var $wheels = 20;
-    
-    
-    
-}
-
-$jet = new Plane();
-//$jet->MoveWheels();
-echo $jet->wheels;
-
-//if(class_exists("Plane")) {
-//
-//    echo "it does";
-//
-//}
-
-
-
-?>

@@ -1,6 +1,6 @@
 <?php 
 
-class Car {
+class Car1 {
     
     
     
@@ -9,7 +9,7 @@ class Car {
 
 }
 
-if(class_exists("Car")) {
+if(class_exists("Car1")) {
 
 echo "YEayyyyyyyyy Nice";
 
