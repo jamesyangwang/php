@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304a94fa-212f-4149-829c-d36888d0534e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/demo/_practical-app/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/_practical-app/1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/_practical-app/2.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/_practical-app/2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/11_arrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/11_arrays.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/31_32_33_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/31_32_33_form.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,10 +31,14 @@
     <favorites_list name="firstproject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="31_32_33_form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/31_32_33_form.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -92,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/demo/_practical-app/1.php" />
         <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/11_arrays.php" />
         <option value="$PROJECT_DIR$/src/demo/_practical-app/2.php" />
+        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/31_32_33_form.php" />
       </list>
     </option>
   </component>
@@ -125,8 +129,8 @@
     </servers>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="C:\Users\James\git\php\firstproject\src\basic" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:80/basic" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.2.6-Win32-VC15-x64" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP from XAMPP" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -176,7 +180,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;MariaDB" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/basic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -257,6 +261,7 @@
       <workItem from="1529642601402" duration="1965000" />
       <workItem from="1529646315535" duration="14000" />
       <workItem from="1529646415173" duration="4486000" />
+      <workItem from="1529687402463" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1529026547854</created>
@@ -269,7 +274,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59616000" />
+    <option name="totallyTimeSpent" value="61703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,17 +286,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32897604" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" show_stripe_button="false" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.4433551" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.44301996" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.4433551" />
       <window_info anchor="bottom" x="22" y="164" width="1876" height="712" id="Terminal" order="7" weight="0.7755991" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49727768" visible="true" weight="0.20842217" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49727768" visible="true" weight="0.19060403" />
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49932885" weight="0.67864925" />
       <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.1977612" />
@@ -377,12 +381,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c9ae9b4-c63f-49f4-a8a3-741ce33b2347/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6ace7635-93a3-4d47-a71b-9d1b68605002/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c9ae9b4-c63f-49f4-a8a3-741ce33b2347/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6ace7635-93a3-4d47-a71b-9d1b68605002/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/basic/hello.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -390,18 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/68278d74-875f-4fad-9cbd-f837e487f7d1/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6ace7635-93a3-4d47-a71b-9d1b68605002/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c9ae9b4-c63f-49f4-a8a3-741ce33b2347/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3c7919ac-16f3-465c-93bc-8ac5209bf8ab/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/68278d74-875f-4fad-9cbd-f837e487f7d1/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6ace7635-93a3-4d47-a71b-9d1b68605002/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c9ae9b4-c63f-49f4-a8a3-741ce33b2347/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3c7919ac-16f3-465c-93bc-8ac5209bf8ab/console.sql" />
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -409,20 +401,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/phpstorm64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/phpstorm64.exe.vmoptions" />
     <entry file="file://$PROJECT_DIR$/src/basic/integers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -661,7 +641,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/31_32_33_form.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
