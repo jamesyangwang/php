@@ -4,7 +4,7 @@ if(isset($_POST['submit'])) {
     
 $name = array("Edwin", "Student", "Peter", "Samid", "Mohad", "Maria", "Jane", "tom");
     
-    $minimun = 5;
+    $minimun = 3;
     $maximun = 10;
 
 $username = $_POST['username'];
