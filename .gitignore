@@ -1,3 +1,5 @@
 firstproject/.idea/workspace.xml
 firstframework/.idea/workspace.xml
 firstframework/log/
+firstframework/vendor/
+firstframework/composer.lock
