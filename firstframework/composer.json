@@ -1,12 +1,15 @@
 {
-  "name": "My First PHP Framework",
+  "name": "james/first_php_framework",
   "description": "PHP Framework for the First Time",
   "type": "Framework",
   "keywords": [
     "PHP", "PHP Framework"
   ],
   "require": {
-    "php": ">= 5.3.0",
-    "filp/whoops": "*"
-  }
+    "php": "~7.2",
+    "filp/whoops": "~2.2",
+    "symfony/var-dumper": "~4.1",
+    "catfan/medoo": "~1.5"
+  },
+  "license": "MIT"
 }
