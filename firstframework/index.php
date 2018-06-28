@@ -1,8 +1,11 @@
 <?php
 
-define('ROOT', realpath('./'));
-define('CORE', ROOT . '/core');
-define('APP', ROOT . '/app');
+//define('ROOT', realpath('./'));
+//define('CORE', ROOT . '/core');
+//define('APP', ROOT . '/app');
+
+define('CORE', 'core');
+define('APP', 'app');
 
 define('DEBUG', true);
 
@@ -14,6 +17,8 @@ if (DEBUG) {
 
 require_once CORE . '/common/function.php';
 require_once CORE . '/framework.php';
+
+spl_autoload_register('\core\framework::load');
 
 //p(FRAMEWORK);
 
