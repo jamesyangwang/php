@@ -14,6 +14,11 @@ class orderController
 //        $ret = $model->query($sql);
 //        p($ret->fetchAll());
 
+//        $temp = \core\lib\config::get('CTRL', 'route');
+//        p($temp);
+//        $temp = \core\lib\config::get('ACTION', 'route');
+//        p($temp);
+
         $data = 'Hello World!';
         $title = "Title";
         $this->assign('title', $title);

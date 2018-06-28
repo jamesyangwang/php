@@ -3,12 +3,21 @@
 namespace core;
 
 use core\lib\route;
+use core\lib\log;
 
 class framework
 {
     public static function run()
     {
         //http://localhost.digicert.com/order/enroll/id/1/str/2/test/3
+        //https://www.imooc.com/learn/696
+
+        log::init();
+        log::log($_SERVER, 'server.txt');
+        log::log('test');
+        log::log('test');
+
+//        new model();
 
 //        p('OK');
         $route = new route();
@@ -25,6 +34,7 @@ class framework
             require_once $ctrlFile;
             $ctrl = new $ctrlClass();
             $ctrl->$action();
+            log::log('ctrl: ' . $ctrlClass . '; ' . 'action: ' . $action);
         } else {
             /** @noinspection PhpUnhandledExceptionInspection */
             throw new \Exception('Could not find Controller: ' . $ctrlFile);
