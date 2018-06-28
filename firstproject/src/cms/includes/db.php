@@ -2,7 +2,7 @@
 
 $db['db_host'] = "localhost";
 $db['db_user'] = "root";
-$db['db_pass'] = "root";
+$db['db_pass'] = "passw0rd";
 $db['db_name'] = "cms";
 
 foreach($db as $key => $value){
@@ -17,9 +17,7 @@ $query = "SET NAMES utf8";
 mysqli_query($connection,$query);
 
 //if($connection) {
-//
 //echo "We are connected";
-//
 //}
 
 
@@ -27,6 +25,3 @@ mysqli_query($connection,$query);
 
 
 
-
-
-?>

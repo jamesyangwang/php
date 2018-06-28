@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/45_46_52_53_55_56_functions.php" line="28" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="304a94fa-212f-4149-829c-d36888d0534e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3c7919ac-16f3-465c-93bc-8ac5209bf8ab.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="8d8ac058-ba24-4971-b2f6-02800e325606" name="Default" comment="" />
+>>>>>>> ab13e84bdaf534a038c68ecc9ef551c7d4a40973
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,41 +16,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - Docker" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - Docker" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - Docker" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="loginapp: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="firstproject" />
-  </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="57_get.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/57_get.php">
@@ -61,22 +29,14 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf />
+>>>>>>> ab13e84bdaf534a038c68ecc9ef551c7d4a40973
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="FrameworkCommandLineHistory">
-    <commandsHistory>
-      <command text="php --help" />
-      <command text="dir" />
-      <command text="ls" />
-      <command text="cat" />
-      <command text="php" />
-    </commandsHistory>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shutdown_notify</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -84,79 +44,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hello.php" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/readme.txt" />
-        <option value="$PROJECT_DIR$/src/strings.php" />
-        <option value="$PROJECT_DIR$/src/strings_functions.php" />
-        <option value="$PROJECT_DIR$/src/integers.php" />
-        <option value="$PROJECT_DIR$/src/variables.php" />
-        <option value="$PROJECT_DIR$/src/floats.php" />
-        <option value="$PROJECT_DIR$/src/arrays.php" />
-        <option value="$PROJECT_DIR$/src/assoc_arrays.php" />
-        <option value="$PROJECT_DIR$/src/array_functions.php" />
-        <option value="$PROJECT_DIR$/src/booleans.php" />
-        <option value="$PROJECT_DIR$/src/null.php" />
-        <option value="$PROJECT_DIR$/src/type_casting.php" />
-        <option value="$PROJECT_DIR$/src/constants.php" />
-        <option value="$PROJECT_DIR$/src/logical.php" />
-        <option value="$PROJECT_DIR$/src/switch.php" />
-        <option value="$PROJECT_DIR$/src/whileloops.php" />
-        <option value="$PROJECT_DIR$/src/forloops.php" />
-        <option value="$PROJECT_DIR$/src/foreachloops.php" />
-        <option value="$PROJECT_DIR$/src/pointers.php" />
-        <option value="$PROJECT_DIR$/src/functions_defining.php" />
-        <option value="$PROJECT_DIR$/src/functions_returnvalues.php" />
-        <option value="$PROJECT_DIR$/src/functions_scope.php" />
-        <option value="C:/php/php-7.2.6-Win32-VC15-x64/php.ini" />
-        <option value="$PROJECT_DIR$/src/functions_defaults.php" />
-        <option value="$PROJECT_DIR$/src/phpinfo.php" />
-        <option value="$PROJECT_DIR$/src/demo/_practical-app/1.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/11_arrays.php" />
-        <option value="$PROJECT_DIR$/src/demo/_practical-app/2.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/31_32_33_form.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/phpinfo.php" />
-        <option value="$PROJECT_DIR$/src/index.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/45_db.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/38_39_40_login.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/43_50_51_53_54_login_create.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/44_login_read.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/45_46_47_48_login_update.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/45_46_52_53_functions.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/49_login_delete.php" />
-        <option value="$PROJECT_DIR$/src/demo/new-lecture-files- HERE/57_get.php" />
+        <option value="$PROJECT_DIR$/src/debug/01.php" />
+        <option value="$PROJECT_DIR$/src/debug/index.php" />
+        <option value="$PROJECT_DIR$/src/debug/debug.php" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="JsbtTreeLayoutManager">
-    <layout place="tools.popupGrunt">
-      <scroll-view-position x="0" y="0" />
-    </layout>
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
-      <server host="localhost" id="02df09dc-43e8-4d06-8dee-35b2ebea6f94" name="Apache" use_path_mappings="true">
-        <path_mappings>
-          <mapping local-root="$PROJECT_DIR$/src" remote-root="C:/Users/James/git/php/firstproject/src" />
-        </path_mappings>
-      </server>
+      <server host="localhost.digicert.com" id="19c3b3d9-c255-4e76-bc2f-1a4270d11e6e" name="XAMPP Local" />
     </servers>
   </component>
+<<<<<<< HEAD
   <component name="PhpWebServerValidation" path_to_validation_script="C:\Users\James\git\php\firstproject\src" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:80" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php-7.2.6-Win32-VC15-x64" />
   <component name="ProjectFrameBounds" extendedState="7">
@@ -164,9 +73,17 @@
     <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
+=======
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\Users\james_wang2\git\php\firstproject\src" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost.digicert.com:80" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP from XAMPP" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+>>>>>>> ab13e84bdaf534a038c68ecc9ef551c7d4a40973
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -185,19 +102,6 @@
               <item name="firstproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="firstproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="new-lecture-files- HERE" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -206,33 +110,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/james_wang2/git/php/firstproject/src/debug/index.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;MariaDB" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/basic" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.detected.package.stylelint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="node.js.selected.package.stylelint" value="" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\James\git\php\firstproject\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\James\git\php\firstproject\src" />
-      <recent name="C:\Users\James\git\php\firstproject\src\basic" />
+      <recent name="C:\Users\james_wang2\git\php\firstproject\src\debug" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,22 +132,18 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="XAMPP" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache" />
-    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Apache" />
-  </component>
-  <component name="StructureViewFactory">
-    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,ALPHA_COMPARATOR" />
+    <configuration name="XAMPP Local" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="XAMPP Local" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="304a94fa-212f-4149-829c-d36888d0534e" name="Default" comment="" />
-      <created>1528940800334</created>
+      <changelist id="8d8ac058-ba24-4971-b2f6-02800e325606" name="Default" comment="" />
+      <created>1530059165439</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1528940800334</updated>
       <workItem from="1528940801578" duration="19000" />
       <workItem from="1528940937291" duration="34000" />
@@ -286,18 +166,17 @@
       <workItem from="1529825032406" duration="598000" />
       <workItem from="1529982193344" duration="12065000" />
       <workItem from="1530117931453" duration="1223000" />
+=======
+      <updated>1530059165439</updated>
+      <workItem from="1530059170314" duration="100000" />
+      <workItem from="1530059286288" duration="8508000" />
+      <workItem from="1530126878207" duration="2262000" />
+>>>>>>> ab13e84bdaf534a038c68ecc9ef551c7d4a40973
     </task>
-    <task id="LOCAL-00001" summary="updates">
-      <created>1529026547854</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1529026547854</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="74080000" />
   </component>
   <component name="TodoView">
@@ -360,198 +239,76 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
     </layout-to-restore>
+=======
+    <option name="totallyTimeSpent" value="10870000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3299712" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39769453" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+    </layout>
+>>>>>>> ab13e84bdaf534a038c68ecc9ef551c7d4a40973
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/basic/logical.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="17" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;variable&quot;</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>$declared</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/foreachloops.php">
+    <entry file="file://$PROJECT_DIR$/src/debug/01_02/sandbox/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/forloops.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/functions_defaults.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/functions_defining.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/functions_returnvalues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/functions_scope.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/logical.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/null.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/pointers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/strings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/strings_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/switch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/type_casting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/variables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/whileloops.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/_new_database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/28_array_functions.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/_practical-app/1.php">
+    <entry file="file://$PROJECT_DIR$/src/debug/01_05/sandbox/demo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
+<<<<<<< HEAD
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
@@ -625,103 +382,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/phpinfo.php" />
     <entry file="file://$PROJECT_DIR$/src/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+=======
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/_includes/footer.php">
+    <entry file="file://$PROJECT_DIR$/src/debug/01_05/sandbox/index.php">
+>>>>>>> ab13e84bdaf534a038c68ecc9ef551c7d4a40973
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="-813" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debug/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/_includes/header.php">
+    <entry file="file://$PROJECT_DIR$/src/debug/02_06/sandbox/FirePHPCore/README">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
+    <entry file="file://$PROJECT_DIR$/src/debug/debug.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="239" column="9" selection-start-line="239" selection-start-column="9" selection-end-line="239" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="1653" column="9" selection-start-line="1653" selection-start-column="9" selection-end-line="1653" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://6ace7635-93a3-4d47-a71b-9d1b68605002/schema/loginapp/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/38_39_40_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/43_50_51_53_54_login_create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/44_login_read.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/45_46_47_48_login_update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/45_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/49_login_delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/_36_mysql/45_46_52_53_55_56_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/new-lecture-files- HERE/57_get.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="408">
+          <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
         </state>
       </provider>
     </entry>
