@@ -2,7 +2,10 @@
 
 namespace app\controller;
 
-use app\model\catModel;
+//use app\model\catModel;
+use Twig_Environment;
+use Twig_Loader_Filesystem;
+
 //use app\model\model;
 
 class orderController
@@ -45,7 +48,8 @@ class orderController
         $title = "Title";
         $this->assign('title', $title);
         $this->assign('data', $data);
-        $this->display('index.php');
+//        $this->display('index.php');
+        $this->displayNew();
     }
 
     public function assign($name, $value)
@@ -57,10 +61,19 @@ class orderController
     {
         $file = APP . '/views/' . $file;
         if (is_file($file)) {
-//            p($this->assign); exit();
+            p($this->assign); exit();
             extract($this->assign);
             /** @noinspection PhpIncludeInspection */
             require_once $file;
         }
     }
+
+    public function displayNew()
+    {
+        $loader = new Twig_Loader_Filesystem(APP . '/views/');
+        $twig = new Twig_Environment($loader, array('cache' => 'cache',));
+        $template = $twig->load('indexNew.php');
+        $template->display($this->assign ? $this->assign : '');
+    }
+
 }

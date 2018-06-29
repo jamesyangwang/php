@@ -20,6 +20,15 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1919120940">
+      <usages-collector id="statistics.php.composer.actions">
+        <counts>
+          <entry key="init_from_ProjectViewPopup" value="1" />
+          <entry key="install_from_ProjectViewPopup" value="1" />
+          <entry key="updateAll_from_ProjectViewPopup" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
