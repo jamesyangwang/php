@@ -11,6 +11,6 @@
     ],
     "require": {
         "league/color-extractor": "0.3.*",
-        "monolog/monolog": "^1.0"
+        "monolog/monolog": "1.17.0"
     }
 }

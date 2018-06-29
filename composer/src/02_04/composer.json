@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "league/color-extractor": "^0.3.2"
+        "league/color-extractor": "0.3.*"
     }
 }

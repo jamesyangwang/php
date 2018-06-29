@@ -2,34 +2,48 @@
 <html lang="en-US">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ImageAbstractor</title>
-	<link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ImageAbstractor</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
 </head>
 
 <body>
 
-	<header class="masthead">
-		<div class="site-branding">
-			<h1 class="site-title">ImageAbstractor</h1>
-			<p class="site-description">Pull the most dominant colors from an image.</p>
-		</div><!-- .site-title -->
-	</header><!-- .masthead -->
+<?php
+require_once 'vendor/autoload.php';
 
-	<section class="the-grid">
+use League\ColorExtractor\Color;
+use League\ColorExtractor\ColorExtractor;
+use League\ColorExtractor\Palette;
 
-		<ul class="colors">
+$palette = Palette::fromFilename('images/flags.jpg');
 
-			<?php
+?>
+<header class="masthead">
+    <div class="site-branding">
+        <h1 class="site-title">ImageAbstractor</h1>
+        <p class="site-description">Pull the most dominant colors from an image.</p>
+    </div><!-- .site-title -->
+</header><!-- .masthead -->
 
-				// Magical image abstraction things will happen here.
+<section class="the-grid">
 
-			?>
+    <ul class="colors">
 
-		</ul>
+        <?php
+        // Magical image abstraction things will happen here.
+        $colors = $palette->getMostUsedColors(1024);
 
-	</section><!-- .the-grid -->
+        foreach( $colors as $color => $count ) {
+            $current = Color::fromIntToHex($color);
+            echo '<li style="background-color:' . $current . '">' . $current . '</li>';
+        }
+        ?>
+
+    </ul>
+
+</section><!-- .the-grid -->
 
 </body>
 

@@ -17,11 +17,43 @@ C:\xampp\apache\conf\httpd.conf
 # to view the web
 http://mycomposer.com/
 
-02_02
+#02_02
 composer inint
 
-02_04
+#02_04
 composer require league/color-extractor
+composer require league/color-extractor:0.3.*
+composer requite --dev [vendor/package]
+
+#02_05
+composer install
+composer update
+
+#02_07
+composer require monolog/monolog:1.17.0
+
+#02_08
+composer outdated
+composer update monolog/monolog
+composer show
+
+#02_09
+composer remove [vendor/package]
+composer    #help info
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
