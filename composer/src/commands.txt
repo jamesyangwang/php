@@ -1,0 +1,27 @@
+php -v
+composer -V
+
+C:\Windows\System32\drivers\etc\hots
+172.16.123.1	mycomposer.com
+
+C:\xampp\apache\conf\httpd.conf
+<VirtualHost mycomposer.com>
+  DocumentRoot "C:\Users\james_wang2\git\php\composer\src"
+</VirtualHost>
+<Directory "C:\Users\james_wang2\git\php\composer\src">
+    Options Indexes FollowSymLinks Includes ExecCGI
+    AllowOverride All
+    Require all granted
+</Directory>
+
+# to view the web
+http://mycomposer.com/
+
+02_02
+composer inint
+
+02_04
+composer require league/color-extractor
+
+
+
