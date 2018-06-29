@@ -42,6 +42,14 @@ composer remove [vendor/package]
 composer    #help info
 
 
+put composer.json to source control
+put composer.lock to source control for release
+do NOT put vendor folder to source control
+
+
+
+
+
 
 
 
