@@ -1,0 +1,27 @@
+
+#https://www.askapache.com/htaccess/ultimate-htaccess-file-sample/
+#https://gist.github.com/mattclements/3317812
+#https://www.digitalocean.com/community/tutorials/how-to-use-the-htaccess-file
+
+#https://docs.expressionengine.com/latest/urls/remove_index.php.html
+#https://stackoverflow.com/questions/4365129/htaccess-remove-index-php-from-url
+#https://expressionengine.stackexchange.com/questions/542/how-do-i-remove-index-php-from-my-urls
+
+DirectoryIndex index.html index.htm index.php
+DefaultLanguage en-US
+AddDefaultCharset UTF-8
+
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#RewriteRule ^(.*)$ $1.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+
