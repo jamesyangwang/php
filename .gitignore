@@ -4,3 +4,5 @@ firstframework/log/
 firstframework/vendor/
 firstframework/composer.lock
 firstframework/cache/
+yii/.idea/workspace.xml
+composer/.idea/workspace.xml
