@@ -1,0 +1,7 @@
+{
+    "require": {
+        "slim/slim": "3.0",
+        "filp/whoops": "~2.2",
+        "symfony/var-dumper": "~4.1"
+    }
+}

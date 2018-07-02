@@ -8,3 +8,5 @@ yii/.idea/workspace.xml
 composer/.idea/workspace.xml
 slim/vendor/
 slim/.idea/workspace.xml
+slim/logs/
+

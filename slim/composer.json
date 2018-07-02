@@ -2,6 +2,13 @@
     "require": {
         "slim/slim": "3.0",
         "filp/whoops": "~2.2",
-        "symfony/var-dumper": "~4.1"
+        "symfony/var-dumper": "~4.1",
+        "illuminate/database": "~5.2",
+        "monolog/monolog": "~1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chatter\\": "src/Chatter/"
+        }
     }
 }
