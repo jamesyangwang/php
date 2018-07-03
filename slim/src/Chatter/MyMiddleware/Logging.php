@@ -7,12 +7,21 @@ use Monolog\Handler\StreamHandler;
 
 class Logging
 {
+
+    private $log;
+
+    public function __construct()
+    {
+        $this->log = new Logger('Logging.php');
+        $this->log->pushHandler(new StreamHandler("logs/mono.log", Logger::DEBUG));
+        $this->log->info("__construct() done.");
+    }
+
     public function __invoke($request, $response, $next)
     {
-        $log = new Logger('index.php');
-        $log->pushHandler(new StreamHandler(__DIR__ . "/logs/mono.log", Logger::DEBUG));
+        $this->log->info("__invoke() started.");
 
-        error_reporting(E_ALL);
+//        error_reporting(E_ALL);
 
         // Default: "C:\xampp\php\logs\php_error_log"
         // From php.ini setting
@@ -34,7 +43,8 @@ class Logging
 //        ini_set('error_log', 'php://stderr');
 //        dump(ini_get('error_log'));
 
-        error_log($request->getMethod() . " -- " . $request->getUri());
+//        error_log($request->getMethod() . " -- " . $request->getUri());
+        $this->log->info($request->getMethod() . " -- " . $request->getUri());
 
         // print_r()
         // var_dump()
@@ -50,6 +60,7 @@ class Logging
 //        syslog(LOG_DEBUG, $request->getMethod() . " -- " . $request->getUri());
 
         $response = $next($request, $response);
+        $this->log->info("__invoke() done.");
         return $response;
     }
 }

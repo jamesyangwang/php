@@ -6,6 +6,10 @@ require_once 'vendor/autoload.php';
 
 use Chatter\MyModels\Message;
 use Chatter\MyMiddleware\Logging as ChatterLogging;
+use Chatter\MyMiddleware\Authentication as ChatterAuth;
+
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
 
 //Apache logs:
 //C:\xampp\apache\logs
@@ -14,8 +18,8 @@ use Chatter\MyMiddleware\Logging as ChatterLogging;
 //Monolog:
 //$__DIR__/logs
 
-//$log->warning('Foo');
-//$log->error('Bar');
+$log = new Logger('index.php');
+$log->pushHandler(new StreamHandler("logs/mono.log", Logger::DEBUG));
 
 $settings = [
     'settings' => [
@@ -24,14 +28,22 @@ $settings = [
 ];
 
 $app = new Slim\App($settings);
+$log->info("Created new Slim App.");
+$log->info("Adding Authentication...");
+$app->add(new ChatterAuth());
+$log->info("Adding Logging...");
 $app->add(new ChatterLogging());
 
 //$app = new \Slim\App();
 //http://myslim.com/messages
 
 $app->get('/messages', function ($request, $response, $args) {
-    $_message = new Message();
+
     global $log;
+    $log->info('$app->get() started.');
+    dump($request);
+    $_message = new Message();
+
 //    dump($_message);
     $messages = $_message->all();
 //    dump($messages);
@@ -44,6 +56,7 @@ $app->get('/messages', function ($request, $response, $args) {
             'created_at' => $_msg->created_at
         ];
     }
+    $log->info('$app->get() done.');
     return $response->withStatus(200)->withJson($payload);
 //    return $response->withStatus(200);
 

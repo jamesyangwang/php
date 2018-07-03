@@ -1,6 +1,6 @@
 <?php
 
-namespace Chatter\Models;
+namespace Chatter\MyModels;
 
 class User extends \Illuminate\Database\Eloquent\Model
 {

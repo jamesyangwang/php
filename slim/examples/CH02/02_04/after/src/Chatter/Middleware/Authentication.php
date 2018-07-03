@@ -15,12 +15,9 @@ class Authentication
         $user = new User();
         if (!$user->authenticate($apikey)) {
             $response->withStatus(401);
-
             return $response;
         }
-
         $response = $next($request, $response);
-
         return $response;
     }
 }
