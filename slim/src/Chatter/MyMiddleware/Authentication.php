@@ -3,9 +3,8 @@
 namespace Chatter\MyMiddleware;
 
 use Chatter\MyModels\User;
-use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
-use Psr\Http\Message\ResponseInterface;
+use Monolog\Logger;
 
 class Authentication
 {
@@ -19,7 +18,7 @@ class Authentication
         $this->log->info("__construct() done.");
     }
 
-    public function __invoke($request, ResponseInterface $response, $next)
+    public function __invoke($request, $response, $next)
     {
         $this->log->info("__invoke() started.");
 //        $this->log->info(json_encode($request, true));
@@ -34,12 +33,9 @@ class Authentication
 
         $user = new User();
         if (!$apikey || !$user->authenticate($apikey)) {
-            // create a new response with status code 401 based on current response
-            // current response status code is 200 here
-            $newRes = $response->withStatus(401);
             $this->log->info("Invalid API Key!");
             $this->log->info("__invoke() done.");
-            return $newRes;
+            return $response->withStatus(401);
         }
         $response = $next($request, $response);
         $this->log->info("__invoke() done.");
