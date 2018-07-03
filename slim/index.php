@@ -2,8 +2,10 @@
 //phpinfo();
 
 require_once 'bootstrap.php';
-require_once 'vendor/autoload.php';
 
+use Chatter\MyMiddleware\FileFilter;
+use Chatter\MyMiddleware\FileMove;
+use Chatter\MyMiddleware\ImageRemoveExif;
 use Chatter\MyMiddleware\Authentication as ChatterAuth;
 use Chatter\MyMiddleware\Logging as ChatterLogging;
 use Chatter\MyModels\Message;
@@ -74,18 +76,9 @@ $app->post('/messages', function ($request, $response, $next) {
     $_message = $request->getParam('body');
     $log->info('body from request: ' . print_r($_message, true));
 
-    $imagepath = '';
-    $files = $request->getUploadedFiles();
-    $newfile = $files['file'];
-    if ($newfile->getError() === UPLOAD_ERR_OK) {
-        $uploadFileName = $newfile->getClientFilename();
-        $newfile->moveTo("assets/images/" . $uploadFileName);
-        $imagepath = "assets/images/" . $uploadFileName;
-    }
-
     $message = new Message();
     $message->body = $_message;
-    $message->image_url = $imagepath;
+    $message->image_url = $request->getAttribute('filename');
     $message->user_id = -1;
     $message->save();
 
@@ -96,7 +89,7 @@ $app->post('/messages', function ($request, $response, $next) {
     } else {
         return$response->withJson("Create new message failed.")->withStatus(400);
     }
-});
+})->add(new FileFilter())->add(new ImageRemoveExif());//->add(new FileMove());
 
 //======================================================================================================================
 $app->delete('/messages/{message_id}', function ($request, $response, $args) {
