@@ -8,6 +8,7 @@ use Chatter\MyModels\Message;
 use Chatter\MyMiddleware\Logging as ChatterLogging;
 use Chatter\MyMiddleware\Authentication as ChatterAuth;
 
+use Chatter\Util\DumpHTTPRequestToFile;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
@@ -39,8 +40,13 @@ $app->add(new ChatterLogging());
 
 $app->get('/messages', function ($request, $response, $args) {
 
+    // dump request to logs
+//    (new DumpHTTPRequestToFile)->execute();
+
     global $log;
     $log->info('$app->get() started.');
+    // dump request to logs
+//    $log->info(print_r($request, true));
 //    dump($request);
     $_message = new Message();
 
