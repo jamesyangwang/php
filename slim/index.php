@@ -41,7 +41,7 @@ $app->get('/messages', function ($request, $response, $args) {
 
     global $log;
     $log->info('$app->get() started.');
-    dump($request);
+//    dump($request);
     $_message = new Message();
 
 //    dump($_message);
